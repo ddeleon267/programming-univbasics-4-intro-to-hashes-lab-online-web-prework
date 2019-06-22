@@ -3,15 +3,15 @@ def new_hash
 end
 
 def my_hash
-  { bananas: "in pajamas"}
+  { bananas: "in pajamas" }
 end
 
 def pioneer
-  { name: "Grace Hopper"}
+  { name: "Grace Hopper" }
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  { key: Math.random}
 end
 
 def my_hash_creator(key, value)
